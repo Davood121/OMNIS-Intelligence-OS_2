@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMNIS Intelligence OS</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="os-container">
+        <!-- Top Navbar -->
+        <nav class="top-bar">
+            <div class="logo">OMNIS.AI</div>
+            <div class="status-bar">
+                <span class="status-indicator"></span> VITAL SIGNS: <span class="highlight">OPTIMAL</span>
+                <span class="clock" id="clock">00:00:00</span>
+            </div>
+        </nav>
+
+        <!-- Main Workspace -->
+        <main class="workspace">
+            <!-- Sidebar Widgets -->
+            <aside class="sidebar">
+                <div class="panel widget">
+                    <h3>SYSTEM LOAD</h3>
+                    <div class="progress-bar"><div class="fill" id="cpu-load"></div></div>
+                    <p class="data-readout">CPU: <span id="cpu-text">43%</span></p>
+                    
+                    <div class="progress-bar mt-10"><div class="fill" style="width: 78%; background: var(--secondary)"></div></div>
+                    <p class="data-readout">MEM: 78%</p>
+                </div>
+
+                <div class="panel widget">
+                    <h3>NEURAL LINKS</h3>
+                    <ul class="neural-list">
+                        <li><span class="dot active"></span> Nexus Node Alpha</li>
+                        <li><span class="dot active"></span> Deep Thought Core</li>
+                        <li><span class="dot pending"></span> Visual Matrix (Syncing)</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- Center Terminal / Main App -->
+            <section class="main-terminal panel">
+                <header class="terminal-header">
+                    <h2>AI.TERMINAL.EXEC</h2>
+                    <div class="window-controls">
+                        <span></span><span></span><span></span>
+                    </div>
+                </header>
+                <div class="terminal-body" id="chat-output">
+                    <div class="message system">O.M.N.I.S Intelligence OS initialized.</div>
+                    <div class="message system">Establishing secure connection... Done.</div>
+                    <div class="message ai">Welcome, Creator Davood. How can I assist you today?</div>
+                </div>
+                <div class="terminal-input">
+                    <span class="prompt">root@omnis:~#</span>
+                    <input type="text" id="command-input" placeholder="Enter command sequence..." autocomplete="off">
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
