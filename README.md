@@ -8,8 +8,8 @@
 
 [![Deploy static content to Pages](https://github.com/Davood121/OMNIS-Intelligence-OS_2/actions/workflows/static.yml/badge.svg)](https://github.com/Davood121/OMNIS-Intelligence-OS_2/actions/workflows/static.yml)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)](https://python.org)
-[![Status](https://img.shields.io/badge/Status-Active_Development-success?style=for-the-badge)](#)
-[![AI Powered](https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge&logo=openai)](#)
+[![Status](https://img.shields.io/badge/Status-Experimental_Prototype-orange?style=for-the-badge)](https://github.com/Davood121/OMNIS-Intelligence-OS_2/actions)
+![AI Powered](https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge&logo=openai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 *An advanced, hyper-modular framework designed to bridge massive local backend intelligence with a sleek, real-time graphical interactive frontend.*
