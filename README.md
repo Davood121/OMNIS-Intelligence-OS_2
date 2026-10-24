@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://via.placeholder.com/150/000000/00ffcc/?text=OMNIS.AI" alt="OMNIS-Intelligence-OS Logo" width="150" style="border-radius:20px;">
+<img src="./omnis-logo.svg" alt="OMNIS-Intelligence-OS Logo" width="150" style="border-radius:20px;">
 
 # 🌌 OMNIS Intelligence OS (v2.0)
 
